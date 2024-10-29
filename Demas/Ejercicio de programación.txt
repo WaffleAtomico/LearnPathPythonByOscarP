@@ -1,0 +1,22 @@
+Ejercicio de programación
+
+Manejo de candeas caracteres, ciclos, condiciones
+
+Durante los ultimo
+
+"que haces, quiero ese cofre"
+"Qui hicis, qiiiri isi cifri"
+
+
+
+Si la secuencia de volcales contiguas, aplica una regla especial
+
+Si la secuencia de volcaes tiene longitud par, se cambias las vocales de los indices impares, por ejemplo aeou cambia a "aioi"
+Su la secuencia de vocales tiene longitud impar, se cambian las colea por los indices pares
+
+
+
+
+
+
+

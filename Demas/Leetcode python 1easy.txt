@@ -1,0 +1,65 @@
+Leetcode python
+
+Yo informado
+class Solution(object):
+    def findComplement(self, num):
+        """
+        :type num: int
+        :rtype: int
+        """
+        testlist = []
+        for n in bin(num)[2:]:
+            testlist
+            testlist.append((1-int(n)))
+        # print(testlist)
+        # print(map(str, testlist))
+        binario_str = ''.join(map(str, testlist))
+        # print(binario_str)
+        numero_decimal = int(binario_str, 2)
+
+        return numero_decimal
+
+
+ia
+
+class Solution(object):
+    def findComplement(self, num):
+        """
+        :type num: int
+        :rtype: int
+        """
+        complemento = 0
+        bit_position = 0
+        
+        while num > 0:
+            bit = num & 1
+            complemento |= (1 - bit) << bit_position
+            
+            num >>= 1
+            bit_position += 1
+        
+        return complemento
+
+        
+
+Mas rapida
+
+
+class Solution(object):
+    def findComplement(self, num):
+        complement=""
+
+        for i in bin(num)[2:]:
+            if i is "0":
+                complement+="1"
+
+            else:
+                complement+="0"
+
+        return int(complement,2)
+
+        """
+        :type num: int
+        :rtype: int
+        """
+        
